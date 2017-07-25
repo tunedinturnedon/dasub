@@ -1,0 +1,167 @@
+.link { padding: 15px; padding-left: 0 margin: 6px; background-color: white; border-radius: 3px; box-shadow: 0 1px 5px 0 rgba(10,10,105,0.22); }
+body { background-color: white; }
+.midcol { min-width: 60px; }
+.link .title { color: #1C1D1E; margin-bottom: 5px; } .title:visited { color: #4D5052; }
+.link .score { font-size: 11px; color: #8E8E8E; font-weight: normal; }
+.arrow { opacity: .40; }
+.arrow:hover { opacity: .80; }
+.tabmenu { display: block; margin-bottom: 4px; padding-left: 30px; bottom: 2px; position: relative; }
+.tabmenu li a { padding: 3px 8px 3px 8px; background-color: transparent; margin-bottom: 4px; color: white; border: none; }
+.tabmenu li a:hover { color: #FFB652; cursor: pointer; border-bottom: 3px solid #FFB652; }
+.tabmenu li.selected a { border: none; border-bottom: 3px solid #FFB652; background-color: transparent; color: #FFB652; }
+.tabmenu li.selected a:hover { color: #FFB652; cursor: pointer; }
+
+
+.titlebox {
+line-height:130%;
+}
+
+.titlebox .md ul {
+margin: 0 !important;
+}
+
+.md ul{
+ padding-left: 0px !important;
+ overflow: hidden;
+}
+
+.titlebox ul li {
+width:274px;
+background-color: white;
+border:none;
+color: black;
+display:none;
+padding:7px 7px 9px 13px;
+margin: 0 0 -1px 0;
+text-align: left;
+border-top: 1px solid #CCCCCC;
+border-left: 6px solid #e1e1e1;
+}
+.titlebox ul li:hover {
+background-color: white;
+}
+.titlebox ul li:nth-child(1) {
+display:block;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light","Helvetica Neue",     Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight: 300;
+background-color: #CEE3F8;
+color: black;
+display: inline-block;
+font-size: 1.4em;
+border-left:6px solid #e1e1e1;
+border-top:none;
+font-size:15px;
+padding:8px 12px 9px 8px;
+width: 100%;
+}
+.titlebox ul li:nth-child(1):hover {
+border-left: 6px solid #e1e1e1;
+background-color: #8D8D8D;
+}
+.titlebox ul:hover > li {
+display:block;
+}
+.titlebox ul li a:hover {
+color: black;
+}
+
+.side .titlebox hr {
+border:none;
+margin-bottom:10px;
+}
+
+---submitbuttons---
+ .morelink
+ {
+font-weight:normal;
+letter-spacing:0;
+background: #CEE3F8;
+border: none;
+height: 5%;
+line-height: 200%;
+overflow: hidden;
+color: black;
+ }
+ .morelink:hover
+ {
+background: #A7B9CB;
+background-color: #8D8D8D;
+border-color: #8D8D8D;
+ }
+ .morelink .nub 
+ {
+display: none;
+ }
+ .morelink 
+ {
+color:black; 
+font-family:Helvetica; 
+font-size: 150%; 
+width: 100%;
+ }
+ .morelink a, .morelink a:hover
+ {
+color: white;
+ }
+ .sidebox.submit-link .morelink::before 
+ {
+display: block;
+clear: none;
+content: "Submit a Link";
+font-size: 95%;
+ }
+
+ .sidebox.submit-text .morelink::before 
+ {
+display: block;
+clear: none;
+content: "Submit a Self Post";
+font-size: 95%;
+ }
+
+ .sidebox.submit .morelink a 
+ {
+position: absolute;
+top: 0;
+font-size: 0px;
+text-align: right;
+color: #56a6f7;
+ }
+ .titlebox blockquote {
+border: 1% solid #AAA;
+text-shadow: 0 1% 0 white;
+color: #787878;
+font-weight: bold;
+ }
+ .titlebox {
+padding: 3%;
+background: transparent; /*Sidebar Background color*/
+border: 1% solid #AAA; /*Sidebar border color*/
+color: #787878; /*Text color in sidebar*/
+ }
+ .sidebox.submit-link .morelink::before
+ {
+display: block;
+clear: none;
+content: "Submit a Link";
+font-size: 95%;
+ }
+
+ .sidebox.submit-text .morelink::before
+ {
+display: block;
+clear: none;
+content: "Submit a Self Post";
+font-size: 90%;
+ }
+---- searcbar----
+
+#search input[type=text] {
+margin: 1px;
+width: 98%;
+border-radius: 5px;
+border: 2px solid #AAA;
+margin-top: 9px;
+}
+
+
