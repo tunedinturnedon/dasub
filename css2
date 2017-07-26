@@ -1,0 +1,335 @@
+.link { 
+  padding: 15px; 
+  padding-left: 0; 
+  margin: 6px;
+  margin-right: 306px;
+  background-color: white; 
+  border-radius: 3px; 
+  box-shadow: 0 1px 5px 0 rgba(10,10,105,0.22); 
+}
+
+body { 
+  background-color: white; 
+}
+
+.midcol { 
+  min-width: 60px; 
+}
+
+.link .title { 
+  color: #1C1D1E; 
+  margin-bottom: 5px; 
+}
+
+.title:visited { 
+  color: #4D5052; 
+}
+
+.link .score { 
+  font-size: 11px; 
+  color: #8E8E8E; 
+  font-weight: normal; 
+}
+
+.arrow { 
+  opacity: .40; 
+}
+
+.arrow:hover { 
+  opacity: .80;
+}
+
+.tabmenu { 
+  display: inline-block; 
+  margin-bottom: 4px; 
+  padding-left: 30px; 
+  bottom: 2px; 
+  position: relative; 
+    right: 150px;
+top: 35px;
+  
+}
+
+.tabmenu li a {
+ padding: 15px 13px 16px 13px; 
+margin-right: 5px;
+ background-color: transparent; 
+ margin-bottom: 4px; 
+ color: white; 
+ border: none; 
+font-size: 11px;
+border-top-right-radius: .2em;
+border-top-left-radius: .2em;
+width: 100px;
+}
+
+.tabmenu li a:hover {
+  background-color: white; 
+  color: black;
+}
+
+.tabmenu li.selected a {
+   color: white;
+   background-color: transparent;
+   border: none;
+}
+
+.tabmenu li.selected a:hover {
+  background-color: white; 
+  color: black;
+}
+
+.tabmenu li {
+  margin: 0;
+}
+
+.titlebox {
+line-height:130%;
+}
+
+.titlebox .md ul {
+margin: 0 !important;
+}
+
+.md ul{
+ padding-left: 0px !important;
+ overflow: hidden;
+}
+
+.titlebox ul li {
+width:274px;
+background-color: white;
+border:none;
+color: black;
+display:none;
+padding:7px 7px 9px 13px;
+margin: 0 0 -1px 0;
+text-align: left;
+border-top: 1px solid #CCCCCC;
+border-left: 6px solid #e1e1e1;
+}
+
+.titlebox ul li:hover {
+background-color: white;
+}
+
+.link .rank {
+   padding-left: 20px;
+}
+
+.titlebox ul li:nth-child(1) {
+display:block;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light","Helvetica Neue",     Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight: 300;
+background-color: #CEE3F8;
+color: black;
+display: inline-block;
+font-size: 1.4em;
+border-left:6px solid #e1e1e1;
+border-top:none;
+font-size:15px;
+padding:8px 12px 9px 8px;
+width: 100%;
+}
+
+.titlebox ul li:nth-child(1):hover {
+border-left: 6px solid #e1e1e1;
+background-color: #8D8D8D;
+}
+
+.titlebox ul:hover > li {
+display:block;
+}
+
+.titlebox ul li a:hover {
+color: black;
+}
+
+.side .titlebox hr {
+border:none;
+margin-bottom:10px;
+}
+
+.morelink {
+background-image: none;
+background-color: #233945;
+border: none;
+height: 51px;
+line-height: 200%;
+letter-spacing: 0px;
+overflow: hidden;
+color: white;
+border-radius: 2px;
+-webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+}
+
+.morelink:hover {
+background-image: none;
+background-color: #37606D;
+color: white;
+}
+
+.morelink .nub {
+ display: none;
+}
+ .sidebox.submit-link .morelink::before 
+ {
+display: block;
+clear: none;
+content: "SUBMIT A LINK";
+padding-top: 10px;
+font-size: 95%;
+ }
+
+.sidebox.submit-text .morelink::before 
+ {
+display: block;
+clear: none;
+content: "SUBMIT A SELF POST";
+font-size: 95%;
+padding-top: 10px;
+ }
+
+.sidebox.submit .morelink a 
+ {
+position: absolute;
+top: 0;
+font-size: 0px;
+text-align: right;
+color: white;
+ }
+
+.morelink a {
+  color: white;
+  padding-top: 10px;
+}
+.titlebox blockquote {
+ border: 1% solid #AAA;
+ text-shadow: 0 1% 0 white;
+ color: #787878;
+ font-weight: bold;
+}
+ .titlebox {
+padding: 3%;
+background: transparent; /*Sidebar Background color*/
+border: 1% solid #AAA; /*Sidebar border color*/
+color: #787878; /*Text color in sidebar*/
+ }
+
+#search input[type=text] {
+margin: 1px;
+height: 40px;
+width: 99%;
+border-radius: 5px;
+border: 1px solid #AAA;
+margin-top: 1px;
+margin-left: 2px;
+-webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 5px 5px 5px 8px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+
+#search input[type=text]:focus {
+   box-shadow: 0 0 5px rgba(50, 134, 160, 1);
+  padding: 5px 5px 5px 8px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(50, 134, 160, 1);
+}
+
+/* Header Stuff */
+
+#header {
+  height: 250px;
+  border: none;
+  background-image: linear-gradient(rgba(0,0,0,0) 40%,#000000 120%),url(%%banner%%);
+  background-position: center top;
+  background-size: 2000px 250px;
+  z-index: 9999;
+}
+
+.pagename {
+   position: absolute;
+   top: 100px;
+}
+
+.pagename a {
+   color: white;
+   font-size: 60px;
+   transition: all 2s ease;
+color:rgba(100, 50, 255, .8);
+/* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 90s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 90s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 90s infinite; 
+}
+
+.pagename a:hover {
+  text-decoration: none;
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  10%{color: red;}
+  40%{color: yellow;}
+  60%{color: green;}
+  80%{color: blue;}
+  100%{color: orange;}  
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+  20%{color: red;}
+  40%{color: yellow;}
+  60%{color: green;}
+  80%{color: blue;}
+  100%{color: orange;}  
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+  20%{color: red;}
+  40%{color: yellow;}
+  60%{color: green;}
+  80%{color: blue;}
+  100%{color: orange;}  
+}
+
+#header-img.default-header {
+   background-image: url(%%LogoREDDIT%%);
+   width: 160px;
+   height: 180px;
+    transform: scale(.8);
+   background-position: 40px 40px;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+#header-bottom-right {
+    right: 50px;
+    background-color: #EFF7FF;
+    padding: 0px;
+    float: right;
+    line-height: 0px;
+    position: inherit;
+margin-bottom: 10px;
+background-color: transparent;
+}
+
+
+#header-bottom-right a {
+  color: white;
+}
